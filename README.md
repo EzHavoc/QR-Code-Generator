@@ -23,11 +23,12 @@ A modern, neobrutalism-styled QR Code Generator web application built with vanil
 
 ## 🚀 Live Demo
 
-[View Live Demo](https://your-project-name.vercel.app) *(Update with your Vercel deployment URL)*
+[View Live Demo]([https://your-project-name.vercel.app](https://qr-code-generator-rho-gold.vercel.app/))
 
 ## 📸 Screenshots
 
-*Add screenshots of your application here*
+<img width="551" height="979" alt="image" src="https://github.com/user-attachments/assets/80860177-d3c7-49f8-8cc6-27ad49225630" />
+
 
 ## 🛠️ Installation
 
@@ -227,9 +228,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📧 Contact
 
-Your Name - [@yourusername](https://twitter.com/yourusername)
+Your Name - [EzHavoc]
 
-Project Link: [https://github.com/your-username/QR-Code-Generator](https://github.com/your-username/QR-Code-Generator)
+Project Link: [https://github.com/your-username/QR-Code-Generator](https://github.com/EzHavoc/QR-Code-Generator)
 
 ---
 
