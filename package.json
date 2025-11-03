@@ -1,0 +1,12 @@
+{
+    "name": "qr-code-generator",
+    "version": "1.0.0",
+    "description": "A neobrutalism-styled QR Code Generator",
+    "keywords": [
+        "qr-code",
+        "generator",
+        "neobrutalism"
+    ],
+    "author": "",
+    "license": "MIT"
+}

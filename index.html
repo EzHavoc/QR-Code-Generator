@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="icon">⬢</div>
+            <h1>QR Code Generator</h1>
+        </header>
+
+        <div class="form-container">
+            <div class="form-group">
+                <label for="textUrl">Text / URL</label>
+                <input type="text" id="textUrl" class="input-field" placeholder="Enter text or URL">
+            </div>
+
+            <div class="form-group">
+                <label>Center Image (optional)</label>
+                <div class="image-option-group">
+                    <div class="radio-group">
+                        <input type="radio" id="imageUrlOption" name="imageOption" value="url" checked>
+                        <label for="imageUrlOption" class="radio-label">URL</label>
+                        <input type="radio" id="imageFileOption" name="imageOption" value="file">
+                        <label for="imageFileOption" class="radio-label">Upload File</label>
+                    </div>
+                    <input type="text" id="centerImage" class="input-field" placeholder="Enter image URL">
+                    <input type="file" id="centerImageFile" class="input-field file-input" accept="image/*"
+                        style="display: none;">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="size">Size (px)</label>
+                <input type="number" id="size" class="input-field" min="100" max="1000" value="300">
+            </div>
+
+            <div class="form-group">
+                <label for="dotStyle">Dot Style</label>
+                <select id="dotStyle" class="input-field">
+                    <option value="squares">Squares</option>
+                    <option value="dots" selected>Dots</option>
+                    <option value="rounded">Rounded</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="dotColor">Dot Color</label>
+                <input type="color" id="dotColor" class="input-field color-input" value="#000000">
+            </div>
+
+            <div class="form-group">
+                <label for="filename">Download Filename (optional)</label>
+                <input type="text" id="filename" class="input-field" placeholder="Enter filename">
+            </div>
+
+            <div class="button-group">
+                <button id="generateBtn" class="btn btn-primary">Generate QR</button>
+                <button id="downloadBtn" class="btn btn-secondary" disabled>Download</button>
+                <button id="copyBtn" class="btn btn-secondary" disabled>Copy to Clipboard</button>
+            </div>
+
+            <div id="qrContainer" class="qr-container"></div>
+        </div>
+    </div>
+
+    <script src="qrcode.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
