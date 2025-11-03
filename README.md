@@ -225,13 +225,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - [QRCode.js](https://github.com/davidshimjs/qrcodejs) - QR code generation library
 - Neobrutalism design inspiration from the web design community
-
-## 📧 Contact
-
-Your Name - [EzHavoc]
-
-Project Link: [https://github.com/your-username/QR-Code-Generator](https://github.com/EzHavoc/QR-Code-Generator)
-
 ---
 
 ⭐ If you like this project, please give it a star on GitHub!
